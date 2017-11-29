@@ -8,7 +8,7 @@ class HalamanLogin extends React.Component {
   };
   render() {
     return(
-      <div className='login-form'>
+      <div className='login-form' style={{ background:'#db2828' }} >
         <style>{`
           body > div,
           body > div > div,
