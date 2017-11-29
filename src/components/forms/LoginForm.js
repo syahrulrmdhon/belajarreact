@@ -1,5 +1,5 @@
 import React from 'react';
-import {Form, Button, Icon, Input, Label, Segment, Divider, Grid, Header} from 'semantic-ui-react';
+import {Form, Button, Icon, Input, Label, Segment, Divider, Grid} from 'semantic-ui-react';
 import Validator from 'validator';
 import PropTypes from 'prop-types';
 import InlineError from '../pesans/InlineError';
