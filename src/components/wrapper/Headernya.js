@@ -12,8 +12,14 @@ class Headernya extends React.Component {
     const { activeItem } = this.state;
     return(
       <Menu pointing secondary size='large'>
-        <Menu.Item name='beranda' active={activeItem === 'beranda'} onClick={this.handleItemClick} />
-        <Menu.Item name='belajar react' active={activeItem === 'belajar react'} onClick={this.handleItemClick} />
+        <Menu.Item name='beranda'
+          active={activeItem === 'beranda'}
+          onClick={this.handleItemClick}
+        />
+        <Menu.Item name='belajar react'
+          active={activeItem === 'belajar react'}
+          onClick={this.handleItemClick}
+        />
         <Menu.Menu position='right'>
           <Menu.Item>
              <Input icon='search' placeholder='Search...' />
