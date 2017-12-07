@@ -1,7 +1,7 @@
 import React from 'react';
 import Headernya from '../wrapper/Headernya';
 import Footer from '../wrapper/Footer';
-import {Segment, Container, Header, Icon, Button,Image} from 'semantic-ui-react';
+import {Segment, Container, Header, Icon, Button} from 'semantic-ui-react';
 
 
 class Beranda extends React.Component {
